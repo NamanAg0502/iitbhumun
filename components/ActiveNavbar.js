@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function ActiveNavbar() {
   return (
@@ -16,7 +17,7 @@ export default function ActiveNavbar() {
           <button className="w-[160px] h-[46px] text-black text-[20px] hover:text-[#189BA5]"><a>Home</a></button>
           <button className="w-[160px] h-[46px] text-black text-[20px] hover:text-[#189BA5]"><a>Committees</a></button>
           <button className="w-[160px] h-[46px] text-black text-[20px] hover:text-[#189BA5]"><a>Secretariat</a></button>
-          <button className="w-[160px] h-[46px] text-black text-[20px] hover:text-[#189BA5]"><a>Gallery</a></button>
+          <button className="w-[160px] h-[46px] text-black text-[20px] hover:text-[#189BA5]"><Link href="gallery">Gallery</Link></button>
           <button className="w-[160px] h-[46px] text-black text-[20px] hover:text-[#189BA5]"><a>FAQ</a></button>
           <button className="w-[160px] h-[46px] text-white bg-[#1A1E21] rounded-md text-[18px] font-semibold"><a>Register</a></button>
         </div>

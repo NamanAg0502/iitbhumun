@@ -62,5 +62,61 @@
             "src":"/images/sponsor-8.png",
             "height" : 69.48
         }
+    ],
+    "gallery":[
+        {
+            "id":1,
+            "src":"/images/Rectangle 469.png",
+            "title":"ASSi GHAT",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":2,
+            "src":"/images/Rectangle 469.png",
+            "title":"GHAT 2",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":3,
+            "src":"/images/Rectangle 470.png",
+            "title":"GHAT 3",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":4,
+            "src":"/images/Rectangle 470.png",
+            "title":"GHAT 4",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":5,
+            "src":"/images/Rectangle 470.png",
+            "title":"GHAT 5",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":6,
+            "src":"/images/Rectangle 470.png",
+            "title":"GHAT 6",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":7,
+            "src":"/images/Rectangle 470.png",
+            "title":"GHAT 7",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":8,
+            "src":"/images/Rectangle 470.png",
+            "title":"GHAT 8",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        },
+        {
+            "id":9,
+            "src":"/images/Rectangle 470.png",
+            "title":"GHAT 9",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+        }
     ]
 }
