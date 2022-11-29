@@ -31,9 +31,11 @@ export default function NavBar({ navbar }) {
           <button className="2xl:text-xl  text-lg hover:text-[#189BA5] duration-100">
             Secretariat
           </button>
-          <button className="2xl:text-xl  text-lg hover:text-[#189BA5] duration-100">
-            Gallery
-          </button>
+          <Link href="/gallery">
+			<button className="2xl:text-xl text-lg hover:text-[#189BA5] duration-100">
+				Gallery
+			</button>
+		  </Link>
           <Link href="/faq">
             <button className="2xl:text-xl  text-lg hover:text-[#189BA5] duration-100">
               FAQ
