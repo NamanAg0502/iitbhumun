@@ -33,7 +33,7 @@ export default function Secretariat() {
                     })}
                 </div>
             </div>
-            <div className='  text-5xl pt-24 text-center'>
+            <div className='  text-5xl pt-24 mt-20 text-center'>
                 Heads
             </div>
 
