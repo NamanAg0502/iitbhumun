@@ -1,10 +1,22 @@
+import React from 'react';
 import Image from 'next/image';
 import CountdownElement from './Countdown';
 import data from '../data/data.json';
 import Card from '../components/TestimonialCard';
 import Link from 'next/link';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay"
 
 export default function Main() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  )
+
   return (
     <div className="w-[90%] mx-auto pt-16 bg-[#FFFFFF]  flex flex-col space-y-12">
       <div className="flex justify-center gap-5">
@@ -74,7 +86,7 @@ export default function Main() {
         </div>
       </div>
 
-      <div className="mt-12 sm:mt-[8.75rem] hover:border-2 hover:border-black  hover: shadow-black/10 hover:shadow-xl hover:rounded-lg px-4 py-8" >
+      <div className="mt-12 sm:mt-[8.75rem] hover:border-2  hover: shadow-black/10 hover:shadow-xl hover:rounded-lg px-4 py-8" >
         <p className="font-bold font-heading text-center text-[#1A1E21] text-xl sm:text-[2.5rem]">
           Letter from Secretary-General
         </p>
@@ -200,7 +212,19 @@ export default function Main() {
         <p className="font-bold font-heading text-center text-[#1A1E21] text-xl sm:text-[2.5rem]">
           Testimonials
         </p>
-        <div className="flex transition-all duration-300 focus:scale-105 items-center w-full justify-start mt-8 sm:mt-[3.75rem] overflow-x-scroll">
+        <div className="flex focus:scale-105 items-center w-full mt-8 sm:mt-[3.75rem]">
+        <Carousel
+         plugins={[plugin.current]}
+         onMouseEnter={plugin.current.stop}
+      onMouseLeave={plugin.current.reset}
+    opts={{
+      align: "start",
+      loop: true,
+    }}
+    className="min-w-[75%] h-[13rem] sm:h-[20rem] sm:min-w-[31%] flex justify-start items-center mx-4 px-2 sm:px-6 py-6 2xl:px-16 sm:mx-[1.254rem] rounded-lg"
+  >
+    <CarouselPrevious/>
+    <CarouselContent>
           {data.testimonials.map((item) => {
             return (
               <Card
@@ -211,6 +235,9 @@ export default function Main() {
               />
             );
           })}
+        </CarouselContent>
+<CarouselNext/>
+</Carousel>
         </div>
       </div>
     </div>
