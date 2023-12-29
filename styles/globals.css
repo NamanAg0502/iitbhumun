@@ -74,13 +74,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-.scrollbar-hide{
-  overflow: hidden !important;
-}
-
-.scrollbar-hide::-webkit-scrollbar{
-  display: hidden !important;
-  width: 0;
-  overflow: hidden;
-}

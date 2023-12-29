@@ -40,7 +40,7 @@ export default function Hero() {
    
     <div className=''>
       <div className="sm:block sm:w-full sm:overflow-x-hidden hidden relative">
-        <div className="row-span-full sm:w-full sm:h-screen sm:overflow-x-hidden col-span-full hero mx-0 scrollbar-hide">
+        <div className="row-span-full sm:w-full sm:h-screen sm:overflow-x-hidden col-span-full hero mx-0 overflow-hidden">
           <div className='flex justify-center gapmanager'>
             <div className='leftside block '>
           <h1 className='finaldate1 text-4xl text-[#B6FF1A] whitespace-nowrap text-left md:text-8xl mt-72 ml-24 border-[#fff] border-solid'>IIT BHU MODEL</h1>
